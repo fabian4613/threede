@@ -7,31 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mi portafolio en desarollo.">
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Portafolio</title>
 </head>
 
 <body>
 
     <header>
-        <!--CANVAS-->
-        <div id="particles-js"></div>
-        <!--CANVAS. Fin.-->
 
         <!-- Logo & Nav Vertical. Fin. -->
         <div id="home_start">
-            <nav id="nav_start">
-                <ul id="ul_nav_start">
-                    <li>Inicio</li>
-                    <li>Acerca</li>
-                    <li>Servicios</li>
-                    <li>Proyectos</li>
-                    <li>Contacto</li>
-                </ul>
-            </nav>
             <nav class="menu_start_mobile">
                 <ul class="menu_items_mobile">
                     <li class="active"><a href="#">Inicio</a></li>
-                    <li><a href="#">Acerca</a></li>
+                    <li><a href="#acerca">Acerca</a></li>
                     <li><a href="#">Servicios</a></li>
                     <li><a href="#">Proyectos</a></li>
                     <li><a href="#">Contacto</a></li>
@@ -42,31 +31,9 @@
             </nav>
 
         </div>
-        <div class="home">
-            <div class="bg_header">
-                <div class="header">
-                    <span class="estilo_letra" data-z data-z-event="pointer" data-z-eventDirection="default"><h1 id="txt_h1">Fabián Pavia</h1></span>
-                    <div class="bg_p">
-                        <p>
-                            <p>Front-End &nbsp;•&nbsp; Support IT &nbsp;•&nbsp; Design UI/UX</p>
-                        </p>
-                    </div>
-                    <nav>
-                        <ul class="ul_nav">
-                            <li><a href="https://twitter.com/fabian_pavia01/" target="_blank" class="icon brands fab fa-twitter"><span class="label">Twitter</span></a></li>
-                            <li><a href="https://www.facebook.com/fabianp.4613/" target="_blank" class="icon brands fab fa-facebook-f"><span class="label">Facebook</span></a></li>
-                            <li><a href="https://dribbble.com/" class="icon brands fab fa-dribbble"><span class="label">Dribbble</span></a></li>
-                            <li><a href="https://github.com/fabian4613/" target="_blank" class="icon brands fab fa-github"><span class="label">Github</span></a></li>
-                            <li><a href="mailto:fabian4613@gmail.com/" target="_blank" class="icon solid fab fa-envelope"><span class="label">Email</span></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
 
     </header>
-
-    <section>
+    <section id="inicio">
         <div class="home">
             <div class="bg_header">
                 <div class="header">
@@ -88,6 +55,21 @@
                 </div>
             </div>
         </div>
+
+    </section>
+
+    <section id="acerca">
+        <div class="about-me container" data-aos="fade-up">
+            <div class="section-title" data-aos="fade-left">
+                <h2>ACERCA</h2>
+                <p>SOBRE MI</p>
+            </div>
+            <div class="row">
+                <div class="col" data-aos="flip-left">
+                    <img src="./img/yo.png" alt="Fabian Pavia">
+                </div>
+                <div class="col_2"></div>
+            </div>
     </section>
     <footer></footer>
 
