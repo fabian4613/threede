@@ -1549,7 +1549,7 @@ footer {
 #acerca {
     height: 100vh;
     position: relative;
-    display: flex;
+    display: none;
     z-index: 0;
     overflow: hidden;
     /* top: 138px; */
