@@ -1751,6 +1751,7 @@ p.span_6 span {
     text-decoration: none;
     color: white;
     font-size: 3.5vh;
+    transition: 0.2s all ease-out;
 }
 
 .ul_nav li a:before {
@@ -1768,7 +1769,6 @@ p.span_6 span {
 
 .ul_nav li a:hover {
     font-size: 2.55em;
-    transition: 0.2s all ease-out;
 }
 
 .ul_nav li a:hover:before {
